@@ -73,6 +73,17 @@
     <h2>Join the Bear Cave</h2>
     <p><a href="#">Telegram</a> | <a href="#">Twitter</a> | <a href="#">View Roadmap PDF</a></p>
 </section>
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+
+const ConnectWallet = () => {
+  return (
+    <div>
+      <WalletMultiButton />
+    </div>
+  );
+};
+
+export default ConnectWallet;
 
 <footer>
     Not financial advice. Just fire. © 2025 BurnyBear.
